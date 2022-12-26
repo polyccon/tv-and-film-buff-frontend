@@ -1,0 +1,17 @@
+.navbar-start {
+  display: flex; /* or inline-flex */
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar-item {
+  margin-right: 100px;
+  color: #3376B9;
+  width: 400px;
+  height: 100px;
+  font: 3em arial, sans-serif;
+}
+.App-header-bold {
+  font-weight: bold;
+  background-color:  #0A1E9E;
+  color: white;
+}
