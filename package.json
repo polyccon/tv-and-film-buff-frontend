@@ -12,7 +12,8 @@
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.3",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
@@ -22,8 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://localhost:5500/home",
-  "proxy": "https://localhost:5500/",
+  "homepage": "https://localhost:5500/",
+  "proxy": "https://localhost:5500",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
   }
 }
