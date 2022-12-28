@@ -7,10 +7,10 @@ import "../Navbar/Navbar.css";
 
 interface NavbarLinkProps extends RouteComponentProps {
   url: string;
-  state: {};
-  children: React.ReactNode; 
-  title: string;
-  className: string;
+  state?: {};
+  children?: React.ReactNode; 
+  title?: string;
+  className?: string;
   navLinkClass: string;
 }
 
