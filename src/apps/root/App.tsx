@@ -8,6 +8,7 @@ import {
 import { withRouter } from "react-router-dom";
 import Home from "../Home";
 import Navbar from "../Navbar";
+import MyFilms from "../MyFilms";
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         <Switch>
           <Route exact path="/home">
             <Home />
+          </Route>
+          <Route exact path="/myfilms">
+            <MyFilms />
           </Route>
         </Switch>
       </div>
