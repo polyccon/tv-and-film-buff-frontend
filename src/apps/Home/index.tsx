@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FILM from '../assets/film-image.png';
+import FILM from '../../assets/film-image.png';
 import './Home.css';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,3 +20,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

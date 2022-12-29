@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "antd";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import classNames from "classnames";
-import "../Navbar/Navbar.css";
+import "../apps/Navbar/Navbar.css";
 
 interface NavbarLinkProps extends RouteComponentProps {
   url: string;
