@@ -1,4 +1,5 @@
 import  React, { useState, useEffect } from "react";
+import Loading from "../../components/Loading";
 import "./MyFilms.css";
 
 type resultProps = {
@@ -25,7 +26,10 @@ export default function MyFilms() {
 
     api();
   }, []);
-
+  
+  if (!result){
+    return <Loading />;
+  }
   return (
     <div className="App">
     <h2>My Series:</h2>
