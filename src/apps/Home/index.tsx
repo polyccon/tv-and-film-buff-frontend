@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FILM from '../../assets/film-image.png';
+import FILM from "../../assets/film-image.png";
 import './Home.css';
 
 const Home = () => {
