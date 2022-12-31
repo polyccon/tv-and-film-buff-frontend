@@ -6,9 +6,9 @@ import {
   Redirect,
 } from "react-router-dom";
 import { withRouter } from "react-router-dom";
-import Home from "../Home";
-import Navbar from "../Navbar";
-import MyFilms from "../MyFilms";
+import Home from "apps/Home";
+import Navbar from "apps/Navbar";
+import MyFilms from "apps/MyFilms";
 
 
 function App() {
